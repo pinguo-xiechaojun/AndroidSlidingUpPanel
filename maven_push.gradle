@@ -18,9 +18,9 @@ afterEvaluate { project ->
 
                 pom.artifactId = POM_ARTIFACT_ID
 
-                repository(url: sonatypeRepositoryUrl) {
-                    authentication(userName: nexusUsername, password: nexusPassword)
-                }
+//                repository(url: sonatypeRepositoryUrl) {
+//                    authentication(userName: nexusUsername, password: nexusPassword)
+//                }
 
                 pom.project {
                     name POM_NAME

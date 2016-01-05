@@ -1,0 +1,8 @@
+<resources>
+
+    <declare-styleable name="MyResolverDrawerLayout_LayoutParams">
+        <attr name="layout_alwaysShow" format="boolean" />
+        <attr name="layout_ignoreOffset" format="boolean" />
+    </declare-styleable>
+
+</resources>
